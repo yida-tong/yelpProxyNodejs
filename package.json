@@ -1,0 +1,20 @@
+{
+  "name": "yelpproxynodejs",
+  "version": "1.0.0",
+  "description": "yelp nodejs proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "local": "nodemon server.js"
+  },
+  "author": "tony tong",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^1.1.3",
+    "express": "^4.18.2"
+  }
+}
